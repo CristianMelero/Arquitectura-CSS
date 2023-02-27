@@ -2,10 +2,33 @@
     background: #fdfdfdfd;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 5rem;
-    margin-right: 5rem;
-    justify-content: space-around;
-    width: calc(25% - 5rem);
+    max-width: 316px;
+    min-width: 225px;
+}
 
+@media screen and (min-width:0){
+    .receta{
+        margin-right: 1rem;
+        width: 100%;
 
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .receta{
+        margin-right: 2rem;
+        width: calc(33.33% - 2rem);
+    }
+    
+}
+
+@media screen and (min-width:992px){
+    .receta{
+        margin-right: 3rem;
+        width: calc(25% - 3rem);
+    }
+    
 }

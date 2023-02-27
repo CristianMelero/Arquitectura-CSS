@@ -2,5 +2,20 @@
     display: flex;
     color: #8C8888;
     font-size: 2rem;
-    margin-left: 4.5rem;
+
+}
+
+@media screen and (min-width:0){
+    .rodapie__descripcion{
+        margin-left: 0;
+
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .rodapie__descripcion{
+        margin-left: 4.5rem;
+    }
+    
 }

@@ -1,4 +1,8 @@
 .receta__imagen{
     height: 200px;
+    max-width: 316px;
+    min-width: 225px;
+    align-self: top;
     
 }
+
